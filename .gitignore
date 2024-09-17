@@ -1,0 +1,6 @@
+bin
+obj
+appsettings.json
+
+# app can be in development mode i.e appsettings.Development.json or in production mode i.e appsetings.Production.json, and if any one of them contains sensitive data like our apikey it needs to be protected also
+appsettings.*.json
